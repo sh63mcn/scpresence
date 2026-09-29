@@ -1,0 +1,10 @@
+{
+  "name": "scpresence",
+  "version": "1.0.0",
+  "description": "Show what you're listening to on SoundCloud as your Discord status",
+  "main": "server.js",
+  "scripts": { "start": "node --max-old-space-size=24 server.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["discord", "rich-presence", "soundcloud", "browser-extension"],
+  "license": "MIT"
+}
