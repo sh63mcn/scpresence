@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "SCPresence",
+  "version": "1.0.0",
+  "description": "Sends your current SoundCloud track to the local SCPresence app for Discord Rich Presence.",
+  "host_permissions": ["http://127.0.0.1:47800/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    { "matches": ["https://soundcloud.com/*", "https://*.soundcloud.com/*"], "js": ["content.js"], "run_at": "document_idle" }
+  ]
+}
