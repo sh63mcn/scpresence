@@ -122,13 +122,6 @@ extension/
 - Chromium browsers only for now. The helper has to be running (`npm start`).
 - Only the SoundCloud website is supported, not the desktop or mobile apps.
 
-## Ideas / contributions welcome
-
-- Native messaging so the browser starts and stops the helper automatically
-- Start-on-login script and a system tray icon
-- Firefox build
-- A single-binary helper (Go/Rust) to drop the Node dependency
-
 ## Privacy
 
 Track title, artist, artwork URL and playback position are read from the SoundCloud tab and sent only to `127.0.0.1` on your own machine, then to your local Discord app. There is no telemetry and no external server.
